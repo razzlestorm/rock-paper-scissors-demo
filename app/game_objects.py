@@ -39,7 +39,7 @@ class Thrown:
         """
         print(f"{self.name} {choice(COLORS)}{self.strong_vs[key]}{ENDC} {key}!")
 
-    def battle(self, opponent):
+    def battle(self, opponent) -> tuple:
         """
         Compares self vs. another Thrown object and determines the winner.
 
